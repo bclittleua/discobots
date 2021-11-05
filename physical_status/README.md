@@ -1,4 +1,4 @@
-This bot requires a PIR motion sensor and a RPi with a breakout board and has a few moving parts. 
+This bot requires a PIR motion sensor and a RPi with a breakout board. It also has a few moving parts... 
 - desk_alert.py controls the PIR and occasionally writes a status to a new file, 'flag'.
 - - flag = 1 if motion has been triggered 
 - - flag = 0 if PIR is idle
