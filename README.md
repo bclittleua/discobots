@@ -12,6 +12,12 @@ it is fun and my tiny array of bots is very useful.
 At least, useful to me.
 
 
+
+
+
+
+
+
 #resources
 
 Start here: https://discordpy.readthedocs.io/en/stable/index.html
