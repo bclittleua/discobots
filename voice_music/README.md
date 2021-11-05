@@ -7,7 +7,7 @@
 1. requires python 3.4 or better
 2. install ffmpeg with apt: ```apt-get install ffmpeg```
 3. install ffmpeg support for python with: ```pip install ffmpeg```
-4. install discord for python with: ```pip install ffmpeg```
+4. install discord for python with: ```pip install discord```
 5. install voice_client support for python with: ```python -m pip install -U discord.py[voice]```
 
 # Windows users:
