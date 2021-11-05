@@ -6,6 +6,8 @@ This folder doesn't have a fully working/tested bot, just a bunch of snippets of
 - This block shows three defined user commands, .help, .weather., and .botstat.
 .weather and .botstat both run a script that writes to a file, then returns that file
 to the discord channel the request was sent from (context):
+
+````
 import discord, subprocess
 @client.event
 async def on_message(message):
@@ -25,8 +27,11 @@ async def on_message(message):
         time.sleep(2)
         channel = message.channel
         await channel.send(open('cpu.tmp').read())
+```
 
 - Here are some examples of commands that use context (ctx) to simplify referencing the channel you're talking to:
+
+```
 import discord
 from discord.ext import commands
 client = commands.Bot(command_prefix=".")
@@ -39,3 +44,4 @@ async def hello(ctx):
 @client.command()
 async def ping(ctx):
     await ctx.channel.send(f"Pong {round(client.latency*1000)} ms")
+```
