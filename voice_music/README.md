@@ -11,7 +11,9 @@
 - install voice_client support for python with: python -m pip install -U discord.py[voice]
 
 # I'm not sure what is different in Windows other than installing and referencing FFmpeg...
-¯\\_(ツ)_/¯
+- ¯\\_(ツ)_/¯
+- ¯\\_(ツ)_/¯
+- ¯\\_(ツ)_/¯
 #
 # Set up your bot at https://discord.com/developers/applications/  
 - no intents required, disable them in bot settings
