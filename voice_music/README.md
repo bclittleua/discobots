@@ -11,5 +11,6 @@ Set up your bot at https://discord.com/developers/applications/
 - no intents required, disable them in bot settings
 - admin permission to make things easy, permissions=8
 - add bot to server with https://discord.com/api/oauth2/authorize?client_id=00000000000000000000&permissions=8&scope=bot
+  
   be sure to replace the 00000000000000 with your own client_id
 
