@@ -20,4 +20,4 @@ At least, useful to me.
 
 ## resources
 
-Start here: https://discordpy.readthedocs.io/en/stable/index.html
+Feeling lost? Start here: https://discordpy.readthedocs.io/en/stable/index.html
