@@ -4,17 +4,17 @@
 3. run mbot.py to start bot
 
 # Dependencies for Linux users (I use a RPi):
-- requires python3.4 or better
-- install ffmpeg with apt: apt-get install ffmpeg
-- install ffmpeg support for python with: pip install ffmpeg
-- install discord for python with: pip install ffmpeg
-- install voice_client support for python with: python -m pip install -U discord.py[voice]
+1. requires python3.4 or better
+2. install ffmpeg with apt: apt-get install ffmpeg
+3. install ffmpeg support for python with: pip install ffmpeg
+4. install discord for python with: pip install ffmpeg
+5. install voice_client support for python with: python -m pip install -U discord.py[voice]
 
 # Windows users:
 I'm not sure what is different in Windows other than installing and referencing FFmpeg...
 - ¯\\_(ツ)_/¯
 - ¯\\_(ツ)_/¯
-- ¯\\_(ツ)_/¯
+- do steps 3, 4, and 5 for linux users.
 #
 # Set up your bot at https://discord.com/developers/applications/  
 - no intents required, disable them in bot settings
