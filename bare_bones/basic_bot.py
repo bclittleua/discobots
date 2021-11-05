@@ -12,7 +12,7 @@ from discord.ext import commands
 ###########################################################################
 client = commands.Bot(command_prefix=".",intents=discord.Intents.all())
 ###########################################################################
-#Command Format #1
+#Command Format #1, using context(ctx)
 @client.event
 async def on_ready():
     print(f"logged in as {client.user}\n\n")
@@ -35,7 +35,9 @@ async def ping(ctx): #built-in funtion to get your ping, neat
 async def quote(ctx): #this one just reads and returns a file
       await ctx.channel.send(open('/path/to/desired/file.txt').read())
 ###########################################################################
-#Commmand Format #2
+#Commmand Format #2, commands as a response to @client.event
+#aka, when the bot detects a match in chat it fires commands as a response
+#think: IF this THEN that AND that_other
 @client.event
 async def on_message(message):
     if message.content.startswith("/custom_query"):
@@ -51,6 +53,6 @@ async def on_message(message):
 token = ""
 with open("toke.n") as file:
     token= file.read()
-Bot.run(token)
+client.run(token)
 ###########################################################################
 ###########################################################################
