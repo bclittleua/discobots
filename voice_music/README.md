@@ -9,7 +9,7 @@ Dependencies for Linux users (I use a RPi):
 - install discord for python with: pip install ffmpeg
 - install voice_client support for python with: python -m pip install -U discord.py[voice]
 
--I'm not sure what is different in Windows other than the installation of ffmpeg...
+-I'm not sure what is different in Windows other than installing and referencing FFmpeg...
 
 Set up your bot at https://discord.com/developers/applications/  
 - no intents required, disable them in bot settings
