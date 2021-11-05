@@ -5,3 +5,6 @@ This bot requires a PIR motion sensor and a RPi with a breakout board. It also h
 - aqui_bot.py is a discord bot that simply runs a task loop and checks 'flag'
 - - if flag = 0 then bot status is set to DND/Red
 - - if flag = 1 then bot status is set to Online/Green
+
+
+This could easily be done with a light sensor, but wouldn't be as accurate (PIR still works a bit in low light).
