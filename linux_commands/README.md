@@ -4,8 +4,8 @@
 
 
 - This block shows three defined user commands, .help, .weather., and .botstat.
-  > .weather and .botstat both run a script that writes to a file, then returns that file
-to the discord channel the request was sent from (context):
+  > .weather and .botstat both run a script that writes to a file, then returns that file's content
+as a message to the discord channel the request was sent from (context):
 
 ```python
 import discord, subprocess
