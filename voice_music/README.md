@@ -1,3 +1,7 @@
+1. copy mbot.py and music_cog.py to same folder
+2. copy your bot token to toke.n in same folder
+3. run mbot.py to start bot
+
 Dependencies for Linux users (I use a RPi):
 - requires python3.4 or better
 - install ffmpeg with apt: apt-get install ffmpeg
