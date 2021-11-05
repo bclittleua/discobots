@@ -9,6 +9,7 @@ Dependencies for Linux users (I use a RPi):
 
 Set up your bot at https://discord.com/developers/applications/  
 - no intents required, disable them in bot settings
+- the only scope require for OAuth2 is 'bot'
 - admin permission to make things easy, permissions=8
 - add bot to server with https://discord.com/api/oauth2/authorize?client_id=00000000000000000000&permissions=8&scope=bot
   
