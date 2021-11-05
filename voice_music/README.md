@@ -4,7 +4,7 @@
 3. Run mbot.py to start bot
 
 # Dependencies for Linux users (I use a RPi):
-1. requires python 3.4 or better
+1. the discord lib requires python 3.4 or better
 2. install ffmpeg with apt: ```apt-get install ffmpeg```
 3. install ffmpeg support for python with: ```pip install ffmpeg```
 4. install discord for python with: ```pip install discord```
