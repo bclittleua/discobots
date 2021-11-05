@@ -1,11 +1,10 @@
 dependencies for linux users:
   Not sure what is different in windows other than the installation of ffmpeg...
 - requires python3.4 or better
-- install ffmpeg with apt, <apt-get install ffmpeg>
-- install ffmpeg support for python with <pip install ffmpeg>
-- install discord for python with <pip install ffmpeg>
-- install voice_client support for python with <python -m pip install -U discord.py[voice]>
-
+- install ffmpeg with apt: apt-get install ffmpeg
+- install ffmpeg support for python with: pip install ffmpeg
+- install discord for python with: pip install ffmpeg
+- install voice_client support for python with: python -m pip install -U discord.py[voice]
   
 set up your bot at https://discord.com/developers/applications/  
 - no intents required, disable them in bot settings
