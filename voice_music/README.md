@@ -1,5 +1,5 @@
 dependencies for linux users:
-  Not sure what is different in windows other than the installation of ffmpeg...
+---Not sure what is different in windows other than the installation of ffmpeg...
 - requires python3.4 or better
 - install ffmpeg with apt: apt-get install ffmpeg
 - install ffmpeg support for python with: pip install ffmpeg
