@@ -1,0 +1,20 @@
+[
+    {
+        "role_name": "role1",
+        "role_id": roleID,
+        "emoji": "\ud83c\uddfa",
+        "message_id": messageID
+    },
+    {
+        "role_name": "role2",
+        "role_id": roleID,
+        "emoji": "\ud83c\uddec",
+        "message_id": messageID
+    },
+    {
+        "role_name": "role3",
+        "role_id": roleID,
+        "emoji": "\u2611\ufe0f",
+        "message_id": messageID
+    }
+]
