@@ -1,0 +1,1 @@
+copy your bot token here, no quotation or punctuation. one line.
