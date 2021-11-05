@@ -10,7 +10,8 @@
 - install discord for python with: pip install ffmpeg
 - install voice_client support for python with: python -m pip install -U discord.py[voice]
 
-# I'm not sure what is different in Windows other than installing and referencing FFmpeg...
+# Windows users:
+I'm not sure what is different in Windows other than installing and referencing FFmpeg...
 - ¯\\_(ツ)_/¯
 - ¯\\_(ツ)_/¯
 - ¯\\_(ツ)_/¯
