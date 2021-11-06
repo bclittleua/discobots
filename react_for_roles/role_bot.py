@@ -1,7 +1,8 @@
 #
 # to add record to reactrole.json via discord:
 # .reactrole [emoji] @rolename message-to-be-displayed [another emoji , optional]
-#
+# use that command to find out the ids for emojis, messages, channels, etc
+
 import discord
 import json
 import sys, os, subprocess, time
