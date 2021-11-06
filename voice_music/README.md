@@ -16,6 +16,7 @@ I'm not sure what is different in Windows other than installing and referencing 
 - ¯\\_(ツ)_/¯
 - Download and install FFmpeg here, note the install path: https://www.ffmpeg.org/download.html
 - do steps 3, 4, and 5 for linux users.
+- i think this works, lol.
 #
 # Set up your bot at https://discord.com/developers/applications/  
 - no intents required, disable them in bot settings
