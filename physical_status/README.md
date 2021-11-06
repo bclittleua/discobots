@@ -7,4 +7,4 @@ This bot requires a PIR motion sensor and a RPi with a breakout board. It also h
 - - if flag = 1 then bot status is set to Online/Green
 
 
-This could easily be done with a light sensor, but wouldn't be as accurate (PIR still works a bit in low light).
+This could easily be done with a light sensor, but wouldn't be as accurate (PIR still works a bit better in low light).
