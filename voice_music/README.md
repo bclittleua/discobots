@@ -12,8 +12,9 @@
 
 # Windows users:
 I'm not sure what is different in Windows other than installing and referencing FFmpeg...
+- discord lib still requires python 3.4 or better
 - ¯\\_(ツ)_/¯
-- ¯\\_(ツ)_/¯
+- Download and install FFmpeg here, note the install path: https://www.ffmpeg.org/download.html
 - do steps 3, 4, and 5 for linux users.
 #
 # Set up your bot at https://discord.com/developers/applications/  
