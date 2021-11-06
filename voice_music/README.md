@@ -11,7 +11,7 @@
 5. install voice_client support for python with: ```python -m pip install -U discord.py[voice]```
 
 # Windows users:
-I'm not sure what is different in Windows other than installing and referencing FFmpeg...
+I'm not sure what is different in Windows other than installing and referencing FFmpeg. I run using the powershell and could probably keep alive with taskscheduler if I didn't already have the RPi solution:
 - discord lib still requires python 3.4 or better
 - ¯\\_(ツ)_/¯
 - Download and install FFmpeg here, note the install path: https://www.ffmpeg.org/download.html
