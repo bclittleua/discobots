@@ -19,11 +19,19 @@ Bot.add_cog(music_cog(Bot))
 async def on_ready():
     chanID = "YOUR CHANNEL_ID HERE"
     channel = Bot.get_channel(chanID) #send online status to private chan
-    await channel.send("Sup Dummy! Beep beep!")
+    await channel.send("Online! Beep beep!")
 ###########################################################################
 @Bot.command()
 async def h(ctx):
-    await ctx.send("Music Bot Commands (/h for this menu): \n /play songname-goes-here to add to queue \n /skip to play next song \n /q to see the queue\n /pause and /res to toggle pause and \n /clear stops player and clears queue \n /dc to kick me out of voice channels \n\n queue stuck? try /skip")
+    await ctx.send("Music Bot Commands (/h for this menu): \n "+
+                   "/add songname-goes-here  to add a song to queue \n "+
+                   "/pause and /resume       to toggle pause and \n "+
+                   "/skip   to play next song \n "+
+                   "/q or /np      to see the queue or now_playing\n\n "+
+                   "/clear  stops playback and clears queue \n"+
+                   "/dc     to kick bot out of voice channel \n\n"+
+                   "/limits I'm not perfect and can't do some things \n\n"+
+                   "queue stuck? try /skip")
 ###########################################################################
 token = ""
 with open("toke.n") as file:
