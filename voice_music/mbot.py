@@ -8,7 +8,7 @@
 ##########  |___/\__,_|_| |_| |_\_/ \_(_)____(_) ##########################
 #########################################################2021##############
 ###########################################################################
-import discord
+import discord, sys
 from discord.ext import commands
 from music_cog import music_cog
 ###########################################################################
@@ -42,6 +42,15 @@ async def limits(ctx):
                    "- be in more than one voice channel at a time\n"+
                    "  - must be /dc from previous channel\n"+
                    "- queue can't resolve some unicode chars, i.e. endash \\u2013")
+###########################################################################
+@Bot.command()
+async def rstduffy(ctx):
+    #My crontab checks if mbot.py is running every minute, and if not runs mbot.py. 
+    #Because I know it will restart itself, I created a kill command for debugging. 
+    #This also gives me a log. Include at your own risk. Here is the cron task for those interested:
+    #*/1 * * * * ps aux|grep -v grep|grep mbot.py||nohup sudo /path/to/your/mbot.py >> /path/to/your/cron.log 2>&1
+    await ctx.send("Fine. I'll brb.")
+    sys.exit()
 ###########################################################################
 token = ""
 with open("toke.n") as file:
