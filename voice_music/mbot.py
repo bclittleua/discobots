@@ -28,6 +28,7 @@ async def h(ctx):
                    "/pause and /resume       to toggle pause and \n "+
                    "/skip   to play next song \n "+
                    "/q or /np      to see the queue or now_playing\n\n "+
+                   #/np requires music_cog1.py and npformater.sh
                    "/clear  stops playback and clears queue \n"+
                    "/dc     to kick bot out of voice channel \n\n"+
                    "/limits I'm not perfect and can't do some things \n\n"+
