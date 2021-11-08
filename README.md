@@ -25,5 +25,5 @@ At least, useful to me.
 1. start with bare_bones
 2. easy to combine these principals once you get the hang of it
 3. Feeling lost? Start here: 
-   a. https://discordpy.readthedocs.io/en/stable/index.html
-   b. https://discord.com/developers/applications
+   - https://discordpy.readthedocs.io/en/stable/index.html
+   - https://discord.com/developers/applications
