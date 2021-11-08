@@ -44,7 +44,7 @@ async def limits(ctx):
                    "- queue can't resolve some unicode chars, i.e. endash \\u2013")
 ###########################################################################
 @Bot.command()
-async def rstduffy(ctx):
+async def rstmbot(ctx):
     #My crontab checks if mbot.py is running every minute, and if not runs mbot.py. 
     #Because I know it will restart itself, I created a kill command for debugging. 
     #This also gives me a log. Include at your own risk. Here is the cron task for those interested:
