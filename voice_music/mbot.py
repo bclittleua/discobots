@@ -34,6 +34,15 @@ async def h(ctx):
                    "/limits I'm not perfect and can't do some things \n\n"+
                    "queue stuck? try /skip")
 ###########################################################################
+@Bot.command()
+async def limits(ctx):
+    await ctx.send("This bot cannot:\n"+
+                   "- play playlists\n"+
+                   "- handle quality above 192kbps (can play but sounds crappy)\n"+
+                   "- be in more than one voice channel at a time\n"+
+                   "  - must be /dc from previous channel\n"+
+                   "- queue can't resolve some unicode chars, i.e. endash \\u2013")
+###########################################################################
 token = ""
 with open("toke.n") as file:
     token= file.read()
