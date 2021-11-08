@@ -1,5 +1,5 @@
 # How to use
-1. Copy mbot.py and music_cog.py to same folder
+1. Copy mbot.py and music_cog.py (or mbot, music_cog1.py, and npformater.sh) to same folder
 2. Copy your bot token to toke.n in same folder
 3. Run mbot.py to start bot
 
