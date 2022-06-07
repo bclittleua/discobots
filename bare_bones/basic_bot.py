@@ -51,7 +51,7 @@ async def on_message(message):
         await channel.send(open('/path/to/your/script_output.txt').read())
 ###########################################################################
 token = ""
-with open("toke.n") as file:
+with open("tok.en") as file:
     token= file.read()
 client.run(token)
 ###########################################################################
