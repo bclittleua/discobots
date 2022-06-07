@@ -34,6 +34,9 @@ async def ping(ctx): #built-in funtion to get your ping, neat
 @client.command()
 async def quote(ctx): #this one just reads and returns a file
       await ctx.channel.send(open('/path/to/desired/file.txt').read())
+      
+      #WARNING: the file path above is a linux format! for WINDOWS use the following:
+      await ctx.channel.send(open('C:\Users\YOUR!-USERNAME\Desktop\another_folder\file.txt').read())
 ###########################################################################
 #Commmand Format #2, commands as a response to @client.event
 #aka, when the bot detects a match in chat it fires commands as a response
