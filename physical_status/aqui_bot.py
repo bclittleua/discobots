@@ -32,7 +32,7 @@ async def looper():
         await client.change_presence(status=discord.Status.online)
 ###########################################################################
 token = ""
-with open("toke.n") as file:
+with open("tok.en") as file:
     token= file.read()
 Bot.run(token)
 ###########################################################################
