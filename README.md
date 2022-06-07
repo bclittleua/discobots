@@ -11,6 +11,8 @@ the essential functions unless an example was required.
 it is fun and my tiny array of bots is very useful.
 At least, useful to me.
 
+- FYI: to get webhook URL, open your discord server settings>integrations>create webhook>copy webhook url
+
 
 
 
