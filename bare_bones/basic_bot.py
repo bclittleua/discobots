@@ -16,7 +16,7 @@ client = commands.Bot(command_prefix=".",intents=discord.Intents.all())
 @client.event
 async def on_ready():
     print(f"logged in as {client.user}\n\n")
-    chanID = "Your channel_ID here"
+    chanID = Your-channel_ID-here-no-quotes
     channel = client.get_channel(chanID)
     await channel.send("Discord Bot Online.") #NOTE: this sends to a specified channel, chanID
 
