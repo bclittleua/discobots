@@ -27,7 +27,7 @@ At least, useful to me.
 ## getting started 
 1. start with bare_bones
 2. add bot to server with https://discord.com/api/oauth2/authorize?client_id=00000000000000000000&permissions=8&scope=bot
-   2a. Be sure to replace the 00000000000000 with your own client_id
+   - Be sure to replace the 00000000000000 with your own client_id
 3. easy to combine these principals once you get the hang of it
 4. Feeling lost? Start here: 
    - https://discordpy.readthedocs.io/en/stable/index.html
