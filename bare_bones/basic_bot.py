@@ -10,7 +10,7 @@
 import discord, sys, os, subprocess, time
 from discord.ext import commands
 ###########################################################################
-client = commands.Bot(command_prefix=".",intents=discord.Intents.all())
+client = commands.Bot(command_prefix="/",intents=discord.Intents.all())
 ###########################################################################
 @client.event
 async def on_ready():
