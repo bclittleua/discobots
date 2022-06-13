@@ -28,7 +28,7 @@ async def on_message(message):
         channel = message.channel
         await channel.send(open('cpu.tmp').read())
 ```
-- Here are some examples of commands that use context (ctx) to simplify referencing the channel you're talking to:
+- Here are some examples of commands that use context (ctx, used with cogs) to simplify referencing the channel you're talking to:
 
 ```python
 import discord
